@@ -1,0 +1,42 @@
+*Preload all the required images for the project in preload( ).
+*Add a background image to canvas.
+*Declare iss, spacecraft and hasDocked variables.
+*Assign false to hasDocked variable.
+*Create iss sprite in setup( ):
+*Add animation to the iss sprite and scale the image.
+*Create spacecraft sprite in setup( ):
+*Add animation to the spacecraft sprite and scale the image.
+*Write this below given condition in draw( ):
+if (!hasDocked){
+    //write code to set random x position for spacecraft
+}
+*Inside this condition set a random X position between some range for the spacecraft.
+*Write all the keyEvents condition inside this if(!hasDocked) condition.
+*When the left arrow is pressed:
+Show image with the left side jet smoke.
+Move the spacecraft in the left direction a little bit.
+*When the right arrow is pressed:
+Show image with the right side jet smoke.
+Move the spacecraft in the left direction a little bit.
+*When the down arrow is pressed:
+Show image with both side jet smoke.
+No downward movements will be added here for spacecraft.
+*Write a condition using UP_ARROW key:
+To move spacecraft towards ISS.
+*Also, write a condition to check if the spacecraft reaches the docking position of ISS as shown in the image below.
+
+*Once the spacecraft touches that point, set the hasDocked value as true.
+*Show text that says “Docking Successful!”.
+*“Run” your code to check if it works as expected.
+*Find bugs and ﬁx them.
+
+
+
+
+Background INFO- 
+Crew Dragon Capsule: It is a crewed space capsule designed by SpaceX to ferry crews to the International space station.
+Boeing Starliner: It is a class of reusable crew capsules expected to transport crew to the International Space Station (ISS) and other low-Earth orbit destinations.
+
+
+Hints:
+To check if the docking is successful, make sure you write conditions for checking spacecraft position with respect to ISS’ x and y positions.
